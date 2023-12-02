@@ -1,0 +1,450 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v13-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+ html{
+    box-sizing: border-box;
+ }
+ *, *::before, *, *::after{
+    box-sizing: inherit;
+ 
+ }
+ 
+ body{
+  background-color: #F9F9F9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;   
+    color: black; 
+ }
+ .header_list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+margin: auto;
+text-decoration: none;
+}
+ .wrapper{
+    max-width: 1700px;
+    margin:  auto;
+
+ }
+
+.header_logoItems{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  gap: 80px;
+ }
+.wrapper2{
+  max-width: 1500px;
+  margin:  0px;
+  background-color:#F9F9F9 ;
+}
+
+.header_nav{
+  background-color: white;
+
+
+}
+.bag_btn{
+  display: flex;
+  background-color: #FE7010;
+  margin-top: 10px;
+  border: none;
+  width: 89px;
+  height: 40px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0,5s;
+}
+.bag_btn img{
+margin-right: 20px;
+}
+.bag_btn:hover{
+  background-color:#FF9218;
+  transition: 0.5s;
+}
+
+.header_logo{
+  background-color: white;
+  margin-top: 2px;
+}
+.address{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  gap: 20px;
+  
+  margin-top: 20px;
+  background-color: white;
+}
+.search-form{
+border: 3px solid #F9F9F9;
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+gap: 525px;
+border-radius: 5px;
+background-color:white ;
+}
+
+.input_adress{
+  padding-left: 20px;
+}
+
+.search-form img{
+  margin: auto;
+}
+
+.search-form_txt{
+border: none;
+width: 200px;
+outline: none;
+font-size: 20px;
+padding-right: 10px;
+background-color: transparent;
+
+}
+.search-form_btn{
+  display: flex;
+  background-color: #FE7010;
+  width: 131px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 45px;
+  transition: 0,5s;
+padding: 0px;
+border: none;
+}
+.search-form_btn:hover{
+  background-color: #FF9218;
+  transition: 0.5s;
+}
+
+
+.product_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products_block{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:20px;
+}
+
+
+.header_item{
+  list-style-type:none;
+  margin-right: 120px;
+
+}
+
+.header_items{
+background-color: F9F9F9;
+flex-direction: row;
+display: flex;
+align-items: center;
+margin-right: 100px;
+margin-left: 100px;
+gap: 20px;
+justify-content: space-between;
+}
+.header_nav-link{
+  margin-right: 1035px;
+  border-image-width: 100px;
+ 
+}
+
+
+.header_link{
+  text-decoration: none;  
+
+}
+.filter_animation{
+width: 110px;
+height: 40px;
+border: none;
+margin-left: 10px;
+align-items: center;
+justify-content: center;
+background-color: white;
+border-radius: 6px;
+cursor: pointer;
+border: 1px solid #F0F0F0;
+}
+.filter_animation:hover{
+border-color:  #CDC5C2;
+transition: 0.5s;
+}
+.filter_animation span{
+  margin-right: 10px;
+}
+.posts{
+  cursor: pointer;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.first_post:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.second_post:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.third_post:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.fourth_post:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.bar{
+background-color: white;
+display: flex;
+margin-top: 20px;
+
+}
+.stock span{
+  color: #E23535;
+}
+.stock:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.pizza:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.sushi:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.drinks:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.snacks:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.combo:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.deserts:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.sauses:hover{
+  transform: scale(1.2);
+  color: #191919;
+}
+.bar_i{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.bar_i button{
+  background-color: white;
+  border: none;
+}
+.bar_items{
+ 
+  border: 2px solid #F0F0F0;
+  padding: 16px;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product{
+  margin-bottom: 30px;
+}
+.cards{
+  margin:0 ;
+  padding: 0;
+  list-style: none;
+  display: flex;
+display: inline-block;
+
+}
+.cards:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+ 
+}
+.card{
+ border: 1px solid #F0F0F0;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.card_content{
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+.card_btn{
+  margin-top: auto;
+  background-color: #FE7010;
+  margin-top: 10px;
+  border: none;
+  width: 131px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0,5s;
+  background-color:#FE7010;
+}
+.card_btn:hover{
+  color: white;
+  background-color: #FF9218;
+  transition: 0.5s;
+}
+.price{
+  color: #ffffff;
+  width: 78px;
+  height: 24px;
+margin-left: 200px;
+}
+footer{
+  background-color: white;
+}
+.footer_container{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #FE7010;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: white;
+  opacity: 0.9;
+
+}
+/*Hover Effects on Social Media Icons*/
+.socialIcons a:hover{
+  transition: 0,5s;
+  background-color: rgb(244, 237, 237);
+}
+.socialIcons a:hover i{
+  color: #FE7010;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px 0;
+}
+.footerNav ul{
+  display: flex;
+  list-style-type:  none;
+  justify-content: center;
+}
+.footerNav ul li a{
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em ;
+  opacity: 0.7 ;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerButtom{
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+.footerButtom p{
+  color: black;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+  .footerNav ul{
+    flex-direction: column;
+  }
+  .footerNav ul li{
+    width: 100%;
+    text-align: center;
+    margin:  10px;
+  }
+}
